@@ -18,8 +18,6 @@ function RegisterPage() {
       setError('Registration failed');
     }
   };
-
-  
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="auth-container">
       <h2>Register</h2>
