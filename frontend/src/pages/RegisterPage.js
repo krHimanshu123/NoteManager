@@ -9,6 +9,7 @@ function RegisterPage() {
   const [error, setError] = useState('');
   const navigate = useNavigate();
 
+  
   const handleRegister = async (e) => {
     e.preventDefault();
     try {
