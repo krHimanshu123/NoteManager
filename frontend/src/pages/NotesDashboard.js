@@ -16,6 +16,7 @@ function NotesDashboard() {
     setNotes(res.data);
   };
 
+  
   useEffect(() => {
     fetchNotes();
   }, []);
