@@ -13,6 +13,7 @@ A robust full-stack application designed to efficiently manage personal notes, f
   - View all notes
   - Delete inappropriate notes
 
+
 ## Tech Stack
 
 - **Frontend:** React, React Router, Axios, Framer Motion
