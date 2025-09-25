@@ -5,6 +5,7 @@ import RegisterPage from './pages/RegisterPage';
 import NotesDashboard from './pages/NotesDashboard';
 import './App.css';
 
+
 function App() {
   return (
     <Router>
