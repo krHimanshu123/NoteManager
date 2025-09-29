@@ -48,6 +48,7 @@ function NotesDashboard() {
   };
 
   const handleLogout = () => {
+    
     localStorage.removeItem('token');
     navigate('/login');
   };
