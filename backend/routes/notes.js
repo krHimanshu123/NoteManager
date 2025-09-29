@@ -15,6 +15,7 @@ router.post('/', auth, async (req, res) => {
   }
 });
 
+
 // Get all notes of logged-in user
 router.get('/', auth, async (req, res) => {
   try {
