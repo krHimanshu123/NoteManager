@@ -21,6 +21,7 @@ mongoose.connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
 
 // Routes will be added here
 app.get('/', (req, res) => {
+  
   res.send('Notes Manager API running');
 });
 
