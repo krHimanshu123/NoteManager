@@ -23,6 +23,7 @@ function LoginPage() {
   };
   
   return (
+    
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="auth-container">
       <h2>Login</h2>
       <form onSubmit={handleLogin}>
